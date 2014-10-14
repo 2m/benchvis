@@ -1,0 +1,373 @@
+[info] Running org.openjdk.jmh.Main LogLevelAccessBenchmark
+[info] # VM invoker: /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 1 s each
+[info] # Measurement: 20 iterations, 1 s each
+[info] # Threads: 22 threads, will synchronize iterations
+[info] # Benchmark mode: Throughput, ops/time
+[info] # Benchmark: akka.event.LogLevelAccessBenchmark.g
+[info] 
+[info] # Run progress: 0.00% complete, ETA 00:01:30
+[info] # Fork: 1 of 3
+[info] # Warmup Iteration   1: 1183758352.384 ops/s
+[info] # Warmup Iteration   2: 1042698541.222 ops/s
+[info] # Warmup Iteration   3: 1057592453.741 ops/s
+[info] # Warmup Iteration   4: 1030817272.557 ops/s
+[info] # Warmup Iteration   5: 1052248425.676 ops/s
+[info] # Warmup Iteration   6: 1046116360.568 ops/s
+[info] # Warmup Iteration   7: 1079206660.152 ops/s
+[info] # Warmup Iteration   8: 1155903622.914 ops/s
+[info] # Warmup Iteration   9: 1251989243.286 ops/s
+[info] # Warmup Iteration  10: 1223557594.957 ops/s
+[info] Iteration   1: 1232406425.774 ops/s
+[info]                  readLogLevel:  1230878656.832 ops/s
+[info]                  setLogLevel_1: 849652.589 ops/s
+[info]                  setLogLevel_2: 678116.354 ops/s
+[info] 
+[info] Iteration   2: 1286762216.982 ops/s
+[info]                  readLogLevel:  1285268263.412 ops/s
+[info]                  setLogLevel_1: 711843.250 ops/s
+[info]                  setLogLevel_2: 782110.320 ops/s
+[info] 
+[info] Iteration   3: 1292116953.188 ops/s
+[info]                  readLogLevel:  1290733467.250 ops/s
+[info]                  setLogLevel_1: 692107.693 ops/s
+[info]                  setLogLevel_2: 691378.246 ops/s
+[info] 
+[info] Iteration   4: 1250289737.222 ops/s
+[info]                  readLogLevel:  1248785426.294 ops/s
+[info]                  setLogLevel_1: 780044.897 ops/s
+[info]                  setLogLevel_2: 724266.031 ops/s
+[info] 
+[info] Iteration   5: 1252136811.829 ops/s
+[info]                  readLogLevel:  1250742698.622 ops/s
+[info]                  setLogLevel_1: 773038.786 ops/s
+[info]                  setLogLevel_2: 621074.421 ops/s
+[info] 
+[info] Iteration   6: 1166413395.364 ops/s
+[info]                  readLogLevel:  1164569694.703 ops/s
+[info]                  setLogLevel_1: 922337.344 ops/s
+[info]                  setLogLevel_2: 921363.318 ops/s
+[info] 
+[info] Iteration   7: 1232788830.666 ops/s
+[info]                  readLogLevel:  1231632051.257 ops/s
+[info]                  setLogLevel_1: 566331.452 ops/s
+[info]                  setLogLevel_2: 590447.957 ops/s
+[info] 
+[info] Iteration   8: 1187291172.032 ops/s
+[info]                  readLogLevel:  1185851734.801 ops/s
+[info]                  setLogLevel_1: 778555.448 ops/s
+[info]                  setLogLevel_2: 660881.783 ops/s
+[info] 
+[info] Iteration   9: 1203897607.690 ops/s
+[info]                  readLogLevel:  1202786449.273 ops/s
+[info]                  setLogLevel_1: 441378.149 ops/s
+[info]                  setLogLevel_2: 669780.269 ops/s
+[info] 
+[info] Iteration  10: 1232440781.159 ops/s
+[info]                  readLogLevel:  1230728164.987 ops/s
+[info]                  setLogLevel_1: 853097.579 ops/s
+[info]                  setLogLevel_2: 859518.592 ops/s
+[info] 
+[info] Iteration  11: 1262477252.411 ops/s
+[info]                  readLogLevel:  1261163149.608 ops/s
+[info]                  setLogLevel_1: 619607.389 ops/s
+[info]                  setLogLevel_2: 694495.414 ops/s
+[info] 
+[info] Iteration  12: 1201261126.340 ops/s
+[info]                  readLogLevel:  1199839492.706 ops/s
+[info]                  setLogLevel_1: 641461.538 ops/s
+[info]                  setLogLevel_2: 780172.096 ops/s
+[info] 
+[info] Iteration  13: 1229159140.379 ops/s
+[info]                  readLogLevel:  1227891315.601 ops/s
+[info]                  setLogLevel_1: 728743.304 ops/s
+[info]                  setLogLevel_2: 539081.475 ops/s
+[info] 
+[info] Iteration  14: 1253239251.574 ops/s
+[info]                  readLogLevel:  1252006993.362 ops/s
+[info]                  setLogLevel_1: 593798.362 ops/s
+[info]                  setLogLevel_2: 638459.849 ops/s
+[info] 
+[info] Iteration  15: 1268503237.454 ops/s
+[info]                  readLogLevel:  1267397644.850 ops/s
+[info]                  setLogLevel_1: 592618.754 ops/s
+[info]                  setLogLevel_2: 512973.850 ops/s
+[info] 
+[info] Iteration  16: 1248727728.827 ops/s
+[info]                  readLogLevel:  1247432896.567 ops/s
+[info]                  setLogLevel_1: 658183.762 ops/s
+[info]                  setLogLevel_2: 636648.498 ops/s
+[info] 
+[info] Iteration  17: 1198766012.205 ops/s
+[info]                  readLogLevel:  1197061094.769 ops/s
+[info]                  setLogLevel_1: 907447.058 ops/s
+[info]                  setLogLevel_2: 797470.378 ops/s
+[info] 
+[info] Iteration  18: 1178933354.526 ops/s
+[info]                  readLogLevel:  1177098334.599 ops/s
+[info]                  setLogLevel_1: 761131.070 ops/s
+[info]                  setLogLevel_2: 1073888.857 ops/s
+[info] 
+[info] Iteration  19: 1219962988.971 ops/s
+[info]                  readLogLevel:  1218683550.526 ops/s
+[info]                  setLogLevel_1: 684093.670 ops/s
+[info]                  setLogLevel_2: 595344.775 ops/s
+[info] 
+[info] Iteration  20: 1268383563.577 ops/s
+[info]                  readLogLevel:  1267137735.994 ops/s
+[info]                  setLogLevel_1: 703536.673 ops/s
+[info]                  setLogLevel_2: 542290.911 ops/s
+[info] 
+[info] 
+[info] # Run progress: 33.33% complete, ETA 00:01:14
+[info] # Fork: 2 of 3
+[info] # Warmup Iteration   1: 1104179436.699 ops/s
+[info] # Warmup Iteration   2: 1231811672.325 ops/s
+[info] # Warmup Iteration   3: 1268870676.579 ops/s
+[info] # Warmup Iteration   4: 1210052650.934 ops/s
+[info] # Warmup Iteration   5: 1299367513.117 ops/s
+[info] # Warmup Iteration   6: 1285880400.819 ops/s
+[info] # Warmup Iteration   7: 1240258171.879 ops/s
+[info] # Warmup Iteration   8: 1266891291.892 ops/s
+[info] # Warmup Iteration   9: 1206132103.069 ops/s
+[info] # Warmup Iteration  10: 1197742702.820 ops/s
+[info] Iteration   1: 1239845514.681 ops/s
+[info]                  readLogLevel:  1238525108.070 ops/s
+[info]                  setLogLevel_1: 647516.083 ops/s
+[info]                  setLogLevel_2: 672890.527 ops/s
+[info] 
+[info] Iteration   2: 1192904134.343 ops/s
+[info]                  readLogLevel:  1191603892.476 ops/s
+[info]                  setLogLevel_1: 680684.815 ops/s
+[info]                  setLogLevel_2: 619557.052 ops/s
+[info] 
+[info] Iteration   3: 1289993502.303 ops/s
+[info]                  readLogLevel:  1288852969.110 ops/s
+[info]                  setLogLevel_1: 546973.774 ops/s
+[info]                  setLogLevel_2: 593559.419 ops/s
+[info] 
+[info] Iteration   4: 1267395595.401 ops/s
+[info]                  readLogLevel:  1266412544.664 ops/s
+[info]                  setLogLevel_1: 487039.870 ops/s
+[info]                  setLogLevel_2: 496010.866 ops/s
+[info] 
+[info] Iteration   5: 1251011387.804 ops/s
+[info]                  readLogLevel:  1249942544.845 ops/s
+[info]                  setLogLevel_1: 529146.242 ops/s
+[info]                  setLogLevel_2: 539696.717 ops/s
+[info] 
+[info] Iteration   6: 1208497179.236 ops/s
+[info]                  readLogLevel:  1207207122.524 ops/s
+[info]                  setLogLevel_1: 575409.075 ops/s
+[info]                  setLogLevel_2: 714647.636 ops/s
+[info] 
+[info] Iteration   7: 1238905376.566 ops/s
+[info]                  readLogLevel:  1237681362.535 ops/s
+[info]                  setLogLevel_1: 638579.313 ops/s
+[info]                  setLogLevel_2: 585434.718 ops/s
+[info] 
+[info] Iteration   8: 1213122865.900 ops/s
+[info]                  readLogLevel:  1211901187.950 ops/s
+[info]                  setLogLevel_1: 613100.112 ops/s
+[info]                  setLogLevel_2: 608577.837 ops/s
+[info] 
+[info] Iteration   9: 1191231954.235 ops/s
+[info]                  readLogLevel:  1189737222.097 ops/s
+[info]                  setLogLevel_1: 830232.225 ops/s
+[info]                  setLogLevel_2: 664499.913 ops/s
+[info] 
+[info] Iteration  10: 1219849432.455 ops/s
+[info]                  readLogLevel:  1218704732.516 ops/s
+[info]                  setLogLevel_1: 547372.003 ops/s
+[info]                  setLogLevel_2: 597327.936 ops/s
+[info] 
+[info] Iteration  11: 1183346724.058 ops/s
+[info]                  readLogLevel:  1182273276.997 ops/s
+[info]                  setLogLevel_1: 553339.755 ops/s
+[info]                  setLogLevel_2: 520107.306 ops/s
+[info] 
+[info] Iteration  12: 1171961476.368 ops/s
+[info]                  readLogLevel:  1170587541.888 ops/s
+[info]                  setLogLevel_1: 624153.694 ops/s
+[info]                  setLogLevel_2: 749780.786 ops/s
+[info] 
+[info] Iteration  13: 1259934325.325 ops/s
+[info]                  readLogLevel:  1258503248.826 ops/s
+[info]                  setLogLevel_1: 743892.238 ops/s
+[info]                  setLogLevel_2: 687184.261 ops/s
+[info] 
+[info] Iteration  14: 1188209073.021 ops/s
+[info]                  readLogLevel:  1186441418.848 ops/s
+[info]                  setLogLevel_1: 801256.148 ops/s
+[info]                  setLogLevel_2: 966398.025 ops/s
+[info] 
+[info] Iteration  15: 1283090294.560 ops/s
+[info]                  readLogLevel:  1281998460.972 ops/s
+[info]                  setLogLevel_1: 588214.486 ops/s
+[info]                  setLogLevel_2: 503619.103 ops/s
+[info] 
+[info] Iteration  16: 1265381882.655 ops/s
+[info]                  readLogLevel:  1264224062.305 ops/s
+[info]                  setLogLevel_1: 518595.206 ops/s
+[info]                  setLogLevel_2: 639225.144 ops/s
+[info] 
+[info] Iteration  17: 1223991565.694 ops/s
+[info]                  readLogLevel:  1222933672.455 ops/s
+[info]                  setLogLevel_1: 547748.308 ops/s
+[info]                  setLogLevel_2: 510144.931 ops/s
+[info] 
+[info] Iteration  18: 1271420123.854 ops/s
+[info]                  readLogLevel:  1270457017.994 ops/s
+[info]                  setLogLevel_1: 491690.123 ops/s
+[info]                  setLogLevel_2: 471415.737 ops/s
+[info] 
+[info] Iteration  19: 1243723328.916 ops/s
+[info]                  readLogLevel:  1242567235.166 ops/s
+[info]                  setLogLevel_1: 557243.413 ops/s
+[info]                  setLogLevel_2: 598850.337 ops/s
+[info] 
+[info] Iteration  20: 1267216582.847 ops/s
+[info]                  readLogLevel:  1266263182.644 ops/s
+[info]                  setLogLevel_1: 427678.952 ops/s
+[info]                  setLogLevel_2: 525721.252 ops/s
+[info] 
+[info] 
+[info] # Run progress: 66.67% complete, ETA 00:00:37
+[info] # Fork: 3 of 3
+[info] # Warmup Iteration   1: 1224130643.667 ops/s
+[info] # Warmup Iteration   2: 1068297416.197 ops/s
+[info] # Warmup Iteration   3: 961870085.348 ops/s
+[info] # Warmup Iteration   4: 1014212511.980 ops/s
+[info] # Warmup Iteration   5: 1022546480.278 ops/s
+[info] # Warmup Iteration   6: 1079732169.896 ops/s
+[info] # Warmup Iteration   7: 1055450452.752 ops/s
+[info] # Warmup Iteration   8: 982058057.964 ops/s
+[info] # Warmup Iteration   9: 1120577628.286 ops/s
+[info] # Warmup Iteration  10: 1119145145.875 ops/s
+[info] Iteration   1: 951395806.330 ops/s
+[info]                  readLogLevel:  950012867.164 ops/s
+[info]                  setLogLevel_1: 691763.298 ops/s
+[info]                  setLogLevel_2: 691175.869 ops/s
+[info] 
+[info] Iteration   2: 1038300165.127 ops/s
+[info]                  readLogLevel:  1036981334.776 ops/s
+[info]                  setLogLevel_1: 551209.452 ops/s
+[info]                  setLogLevel_2: 767620.899 ops/s
+[info] 
+[info] Iteration   3: 1156304562.651 ops/s
+[info]                  readLogLevel:  1155184193.406 ops/s
+[info]                  setLogLevel_1: 577430.306 ops/s
+[info]                  setLogLevel_2: 542938.939 ops/s
+[info] 
+[info] Iteration   4: 1140176162.680 ops/s
+[info]                  readLogLevel:  1138928465.872 ops/s
+[info]                  setLogLevel_1: 642871.915 ops/s
+[info]                  setLogLevel_2: 604824.892 ops/s
+[info] 
+[info] Iteration   5: 1160129780.889 ops/s
+[info]                  readLogLevel:  1158889579.034 ops/s
+[info]                  setLogLevel_1: 603311.184 ops/s
+[info]                  setLogLevel_2: 636890.670 ops/s
+[info] 
+[info] Iteration   6: 1161321268.328 ops/s
+[info]                  readLogLevel:  1160056046.657 ops/s
+[info]                  setLogLevel_1: 483200.477 ops/s
+[info]                  setLogLevel_2: 782021.195 ops/s
+[info] 
+[info] Iteration   7: 1120243589.837 ops/s
+[info]                  readLogLevel:  1118974023.764 ops/s
+[info]                  setLogLevel_1: 730559.994 ops/s
+[info]                  setLogLevel_2: 539006.080 ops/s
+[info] 
+[info] Iteration   8: 1121641742.045 ops/s
+[info]                  readLogLevel:  1120408347.044 ops/s
+[info]                  setLogLevel_1: 656041.034 ops/s
+[info]                  setLogLevel_2: 577353.967 ops/s
+[info] 
+[info] Iteration   9: 1159633558.708 ops/s
+[info]                  readLogLevel:  1158656471.860 ops/s
+[info]                  setLogLevel_1: 425054.512 ops/s
+[info]                  setLogLevel_2: 552032.336 ops/s
+[info] 
+[info] Iteration  10: 1207968072.273 ops/s
+[info]                  readLogLevel:  1207043941.806 ops/s
+[info]                  setLogLevel_1: 434859.044 ops/s
+[info]                  setLogLevel_2: 489271.422 ops/s
+[info] 
+[info] Iteration  11: 1193315478.386 ops/s
+[info]                  readLogLevel:  1192444103.282 ops/s
+[info]                  setLogLevel_1: 477522.974 ops/s
+[info]                  setLogLevel_2: 393852.130 ops/s
+[info] 
+[info] Iteration  12: 1115971465.457 ops/s
+[info]                  readLogLevel:  1114772281.975 ops/s
+[info]                  setLogLevel_1: 535741.923 ops/s
+[info]                  setLogLevel_2: 663441.559 ops/s
+[info] 
+[info] Iteration  13: 1119087512.211 ops/s
+[info]                  readLogLevel:  1117862350.583 ops/s
+[info]                  setLogLevel_1: 499515.657 ops/s
+[info]                  setLogLevel_2: 725645.971 ops/s
+[info] 
+[info] Iteration  14: 1084366365.175 ops/s
+[info]                  readLogLevel:  1083125255.504 ops/s
+[info]                  setLogLevel_1: 664829.434 ops/s
+[info]                  setLogLevel_2: 576280.238 ops/s
+[info] 
+[info] Iteration  15: 1219976101.737 ops/s
+[info]                  readLogLevel:  1219076978.049 ops/s
+[info]                  setLogLevel_1: 447855.791 ops/s
+[info]                  setLogLevel_2: 451267.897 ops/s
+[info] 
+[info] Iteration  16: 1171128474.715 ops/s
+[info]                  readLogLevel:  1170070809.069 ops/s
+[info]                  setLogLevel_1: 544100.604 ops/s
+[info]                  setLogLevel_2: 513565.043 ops/s
+[info] 
+[info] Iteration  17: 1162809267.618 ops/s
+[info]                  readLogLevel:  1161884379.399 ops/s
+[info]                  setLogLevel_1: 416218.406 ops/s
+[info]                  setLogLevel_2: 508669.813 ops/s
+[info] 
+[info] Iteration  18: 1206591224.331 ops/s
+[info]                  readLogLevel:  1205738068.792 ops/s
+[info]                  setLogLevel_1: 476484.711 ops/s
+[info]                  setLogLevel_2: 376670.829 ops/s
+[info] 
+[info] Iteration  19: 1171474943.213 ops/s
+[info]                  readLogLevel:  1170654401.958 ops/s
+[info]                  setLogLevel_1: 456937.805 ops/s
+[info]                  setLogLevel_2: 363603.451 ops/s
+[info] 
+[info] Iteration  20: 1161604025.519 ops/s
+[info]                  readLogLevel:  1160631840.205 ops/s
+[info]                  setLogLevel_1: 445990.270 ops/s
+[info]                  setLogLevel_2: 526195.045 ops/s
+[info] 
+[info] 
+[info] 
+[info] Result: 1202673824.594 ±(99.9%) 28239228.393 ops/s [Average]
+[info]   Statistics: (min, avg, max) = (951395806.330, 1202673824.594, 1292116953.188), stdev = 63161085.609
+[info]   Confidence interval (99.9%): [1174434596.201, 1230913052.987]
+[info] 
+[info] Result "readLogLevel": 1201431706.018 ±(99.9%) 28246271.421 ops/s [Average]
+[info]   Statistics: (min, avg, max) = (950012867.164, 1201431706.018, 1290733467.250), stdev = 63176838.351
+[info]   Confidence interval (99.9%): [1173185434.597, 1229677977.439]
+[info] 
+[info] Result "setLogLevel_1": 616172.890 ±(99.9%) 57576.993 ops/s [Average]
+[info]   Statistics: (min, avg, max) = (416218.406, 616172.890, 922337.344), stdev = 128779.205
+[info]   Confidence interval (99.9%): [558595.897, 673749.883]
+[info] 
+[info] Result "setLogLevel_2": 625945.686 ±(99.9%) 60468.666 ops/s [Average]
+[info]   Statistics: (min, avg, max) = (363603.451, 625945.686, 1073888.857), stdev = 135246.846
+[info]   Confidence interval (99.9%): [565477.020, 686414.351]
+[info] 
+[info] 
+[info] # Run complete. Total time: 00:01:51
+[info] 
+[info] Benchmark                                       Mode  Samples           Score   Score error  Units
+[info] a.e.LogLevelAccessBenchmark.g                  thrpt       60  1202673824.594  28239228.393  ops/s
+[info] a.e.LogLevelAccessBenchmark.g:readLogLevel     thrpt       60  1201431706.018  28246271.421  ops/s
+[info] a.e.LogLevelAccessBenchmark.g:setLogLevel_1    thrpt       60      616172.890     57576.993  ops/s
+[info] a.e.LogLevelAccessBenchmark.g:setLogLevel_2    thrpt       60      625945.686     60468.666  ops/s
